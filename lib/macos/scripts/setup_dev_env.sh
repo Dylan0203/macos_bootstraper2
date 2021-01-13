@@ -56,6 +56,7 @@ try_use_arm_brew install 'emojify'
 try_use_arm_brew install 'geckodriver'
 try_use_arm_brew install 'gifsicle'
 try_use_arm_brew install 'git'
+try_use_arm_brew install 'git-flow-avh'
 try_use_arm_brew install 'graphviz'
 try_use_arm_brew install 'heroku'
 try_use_arm_brew install 'htop'
@@ -85,7 +86,7 @@ try_use_arm_brew install 'watchman'
 try_use_arm_brew install 'yarn'
 try_use_arm_brew install 'zsh'
 
-try_use_arm_brew install --cask 'alfred3'
+# try_use_arm_brew install --cask 'alfred3'
 try_use_arm_brew install --cask 'appcleaner'
 try_use_arm_brew install --cask 'iterm2'
 try_use_arm_brew install --cask 'dropbox'
@@ -97,6 +98,7 @@ try_use_arm_brew install --cask 'sequel-pro'
 try_use_arm_brew install --cask 'psequel'
 try_use_arm_brew install --cask 'flux'
 try_use_arm_brew install --cask 'discord'
+try_use_arm_brew install --cask 'fork'
 
 try_use_arm_brew install --cask 'font-fira-code'
 try_use_arm_brew install --cask 'font-source-code-pro-for-powerline'
@@ -132,12 +134,12 @@ try_use_arm_brew bundle --file=-<<EOF
 mas 'Keynote', id: 409_183_694
 mas 'Pages', id: 409_201_541
 mas 'Numbers', id: 409_203_825
-mas '1Password', id: 443_987_910
-mas 'OpenConv', id: 892_308_325
+# mas '1Password', id: 443_987_910
+# mas 'OpenConv', id: 892_308_325
 mas 'iStat Menus', id: 1_319_778_037
-mas 'Byword', id: 420_212_497
+# mas 'Byword', id: 420_212_497
 mas 'Spark', id: 1_176_895_641
-mas 'Moom', id: 419_330_170
+# mas 'Moom', id: 419_330_170
 mas 'LINE', id: 539_883_307
 EOF
 

@@ -4,8 +4,8 @@ module Macos
       puts '⚙️ config docker...'
 
       puts '  - adjust size'
-      system 'defaults write com.apple.dock tilesize -int 20'
-      system 'defaults write com.apple.dock largesize -int 40'
+      system 'defaults write com.apple.dock tilesize -int 64'
+      system 'defaults write com.apple.dock largesize -int 128'
 
       puts '  - Make Dock icons of hidden applications translucent'
       system 'defaults write com.apple.dock showhidden -bool true'

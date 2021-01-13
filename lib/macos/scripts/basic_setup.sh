@@ -133,7 +133,7 @@ fi
 
 # install nodejs
 info_echo "Install Node.js LTS version"
-nodejs_version="14.15.3"
+nodejs_version="12.20.0"
 if test -z "$(asdf list nodejs --bare|grep $nodejs_version)"; then
 
   asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
